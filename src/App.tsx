@@ -12,7 +12,7 @@ function App() {
 
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Im a Flutter & Full-Stack Developer.
+          Im a Flutter & Full-Stack Developer. (More coming soon)
         </p>
 
 
