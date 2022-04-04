@@ -1,10 +1,15 @@
+.video {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
 .App {
-  text-align: right;
+  text-align: center;
   display: compact;
 }
 
 .App-logo {
-  height: 35vmin;
+  height: 27vmin;
   pointer-events: none;
 
 }
@@ -19,7 +24,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: left;
+  justify-content: center;
   font-size: calc(10px + 2vmin);
   color: antiquewhite;
 }
