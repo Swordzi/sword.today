@@ -9,6 +9,7 @@ import React from "react";
 import logo from './Profile-modified.png';
 import './App.css';
 import waves from './videos/waves.mp4'
+import github from './media/github-logo.png'
 // Import the functions you need from the SDKs you need
 import {initializeApp} from "firebase/app";
 import {getAnalytics} from "firebase/analytics";
@@ -38,14 +39,18 @@ function frontPage() {
                 <video autoPlay loop muted id='background'>
                     <source src={waves} type='video/mp4'/>
                 </video>
-
-
                 <img src={logo} className="Front-logo" alt="logo"/>
                 <p id="Name">Sword</p>
-
+                <a
+                    className="github-link"
+                    href="https://github.com/Swordzi"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    <img src={github} className="github-logo" alt="github"/>
+                </a>
             </header>
         </div>
-
     );
 }
 

@@ -40,5 +40,10 @@ p#Name {
 .App-link {
     color: #61dafb;
 }
+.github-logo {
+    height: 40vm;
+    pointer-events: none;
+}
+
 
 
