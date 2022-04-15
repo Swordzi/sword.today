@@ -27,14 +27,14 @@ const analytics = getAnalytics(app);
 
 function frontPage() {
   return (
-      <div className="App">
-        <header className="App-header">
+      <div className="Front">
+        <header className="Front-header">
           <video autoPlay loop muted id='background'>
             <source src={waves} type='video/mp4'/>
           </video>
 
 
-          <img src={logo} className="App-logo" alt="logo"/>
+          <img src={logo} className="Front-logo" alt="logo"/>
           <p id="Name">Sword</p>
 
         </header>
