@@ -1,12 +1,18 @@
+// BSD 3-Clause License
+//
+// Copyright (c) 2022, Iiro Polso
+// All rights reserved.
+
+
+// Importing React to get react functionality, logo for my profile picture and video for backgorund. Importing app.css for the CSS for the main page.
 import React from "react";
 import logo from './Profile-modified.png';
 import './App.css';
 import waves from './videos/waves.mp4'
 // Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
+import {initializeApp} from "firebase/app";
+import {getAnalytics} from "firebase/analytics";
+
 
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
@@ -26,21 +32,21 @@ const analytics = getAnalytics(app);
 
 
 function frontPage() {
-  return (
-      <div className="Front">
-        <header className="Front-header">
-          <video autoPlay loop muted id='background'>
-            <source src={waves} type='video/mp4'/>
-          </video>
+    return (
+        <div className="Front">
+            <header className="Front-header">
+                <video autoPlay loop muted id='background'>
+                    <source src={waves} type='video/mp4'/>
+                </video>
 
 
-          <img src={logo} className="Front-logo" alt="logo"/>
-          <p id="Name">Sword</p>
+                <img src={logo} className="Front-logo" alt="logo"/>
+                <p id="Name">Sword</p>
 
-        </header>
-      </div>
+            </header>
+        </div>
 
-  );
+    );
 }
 
 export default frontPage;
