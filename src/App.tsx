@@ -49,6 +49,16 @@ function frontPage() {
                 >
                     <img src={github} className="github-logo" alt="github"/>
                 </a>
+                <a
+                className="Projects-link"
+                href='./Pages/Projects.tsx'
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+
+
+                </a>
+               
             </header>
         </div>
     );
