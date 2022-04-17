@@ -1,0 +1,51 @@
+/* BSD 3-Clause License
+
+ Copyright (c) 2022, Iiro Polso
+ All rights reserved.
+ */
+
+$DefaultPos: center;
+$TextColor: coral;
+
+%Logos-shared {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+#background {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+}
+
+.Front {
+  text-align: $DefaultPos;
+  display: compact;
+}
+
+.Front-logo {
+  @extend %Logos-shared;
+  height: 30vmin;
+}
+
+.Front-header {
+  min-height: 100vh;
+  position: $DefaultPos;
+  display: flex;
+  flex-direction: column;
+  align-items: $DefaultPos;
+  justify-content: $DefaultPos;
+  font-size: calc(10px + 2vmin);
+  color: transparent;
+}
+
+p#Name {
+  color: coral;
+}
+
+.github-logo {
+  @extend %Logos-shared;
+}
+
+
+
