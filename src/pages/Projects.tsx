@@ -6,7 +6,7 @@
 // TODO: Start making this webpage.
 
 import React from "react";
-import 'src/pages/Projects.scss';
+import 'src/Styles/Projects.scss';
 
 
 function Projects() {

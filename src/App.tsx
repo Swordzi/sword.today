@@ -7,7 +7,7 @@
 // Importing React to get react functionality, logo for my profile picture and video for backgorund. Importing app.scss for the CSS for the main page.
 import React from "react";
 import logo from './Profile-modified.png';
-import './App.scss';
+import './Styles/App.scss';
 import waves from './videos/waves.mp4'
 import github from './media/github-logo.png'
 // Import the functions you need from the SDKs you need
