@@ -10,9 +10,10 @@ Im looking to add a way to implement your own bio website using the stuff I've l
 
 ## Using the project
 
-To view and modify the code yourself firstly code the repository
+To view and modify the code yourself firstly clone the repository
 with `git clone https://github.com/Swordzi/sword.today.git`
-This requires having [git](https://git-scm.com/) installed on your system.
+This requires having [git](https://git-scm.com/) installed on your system. Make sure you also
+have [nodejs](https://nodejs.org/en/) installed.
 Once you have opened the project in the IDE of your choosing run the command `npm install` to install the dependencies
 for this project.
 
@@ -26,6 +27,7 @@ This is a project made by me and currently has no other contributors. If you are
 reach out to me on my socials such as twitter: @sw7_sword
 
 ## Licenses
-This project is licensed under the BSD 3-Clause License. 
+
+This project is licensed under the BSD 3-Clause License.
 Projects used in this project include React (MIT License) and Firebase (Apache 2.0 License)
 

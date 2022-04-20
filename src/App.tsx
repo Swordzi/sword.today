@@ -34,6 +34,7 @@ const analytics = getAnalytics(app);
 
 function frontPage() {
     return (
+        // The full source code for this project can be found at https://github.com/Swordzi/sword.today
         <div className="Front">
             <header className="Front-header">
                 <video autoPlay loop muted id='background'>
