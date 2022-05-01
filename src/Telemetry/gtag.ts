@@ -3,6 +3,7 @@ import {getCLS, getFID, getLCP} from 'web-vitals';
 function sendToGoogleAnalytics({name, delta, value, id}) {
     // Assumes the global `gtag()` function exists, see:
     // https://developers.google.com/analytics/devguides/collection/ga4
+    // TODO: Fix this error here
     gtag('event', name, {
         // Built-in params:
         value: delta, // Use `delta` so the value can be summed.
